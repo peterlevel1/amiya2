@@ -1,7 +1,7 @@
 {
-  "name": "dax-amiya",
-  "description": "amiya React component",
-  "version": "1.0.11",
+  "name": "amiya2",
+  "description": "the 2th amiya lib for react developers",
+  "version": "1.0.0",
   "scripts": {
     "build": "father-build",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
@@ -26,7 +26,7 @@
     ]
   },
   "publishConfig": {
-    "registry": "http://192.168.20.99:8081/repository/local-npm/"
+    "registry": "https://registry.npmjs.org/"
   },
   "peerDependencies": {
     "@ant-design/icons": "^4.8.0",

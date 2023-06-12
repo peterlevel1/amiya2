@@ -1,4 +1,3 @@
 export default {
-  cjs: 'babel',
-  lessInBabelMode: {},
+  cjs: 'babel'
 };

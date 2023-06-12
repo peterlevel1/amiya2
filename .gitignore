@@ -14,3 +14,5 @@ dist*
 .umi
 
 .DS_STORE
+package-lock.json
+.vscode

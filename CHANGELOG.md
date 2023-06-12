@@ -1,7 +1,7 @@
-# dax-amiya
+# amiya2
 
-## 1.0.3
+## 1.0.0
 
-### Patch Changes
+- init codes
+- amiya version: 0.20.0
 
-- 9b36080: fix: dax-amiya: should not ref self pkg within its src
