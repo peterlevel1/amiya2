@@ -1,0 +1,58 @@
+{
+  "name": "dax-amiya",
+  "description": "amiya React component",
+  "version": "1.0.11",
+  "scripts": {
+    "build": "father-build",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
+  },
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "publishConfig": {
+    "registry": "http://192.168.20.99:8081/repository/local-npm/"
+  },
+  "peerDependencies": {
+    "@ant-design/icons": "^4.8.0",
+    "antd": ">=4.8.2",
+    "react": "16.x",
+    "react-dom": "16.x"
+  },
+  "devDependencies": {
+    "@ant-design/icons": "^4.8.0",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.18.6",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "@types/antd": "^1.0.0",
+    "@types/extend": "^3.0.1",
+    "@types/react": "16.x",
+    "@types/react-dom": "16.x",
+    "@umijs/test": "^3.0.5",
+    "antd": "^4.8.2",
+    "father-build": "^1.18.6",
+    "lint-staged": "^10.0.7",
+    "react": "16.x",
+    "react-dom": "16.x",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "extend": "^3.0.2"
+  }
+}
